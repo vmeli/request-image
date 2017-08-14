@@ -16,7 +16,8 @@ body {
 	background: teal;
 }
 
-#test3 {
+#test3,
+#test3-js {
 	margin: auto;
 }
 
@@ -27,6 +28,11 @@ body {
 	-webkit-background-size: contain;
 	        background-size: contain;
 	background-repeat: no-repeat;
+}
+
+#test3-js img {
+	-webkit-filter: grayscale(100%);
+	        filter: grayscale(100%);
 }
 
 @media (max-width: 768px) {
